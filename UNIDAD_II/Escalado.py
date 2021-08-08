@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 list_x = []
 list_y = []
+plt.style.use('dark_background')
 
 def retornar_escalarP(x0,y0,x1,y1,ix,iy):
   nx = x0 * x1 + (1 - x1) * (ix)
@@ -18,11 +19,11 @@ def escalar(x, y, ex, ey):
   vy = ey
   print('=Vector de Escalamiento es: (',vx,',',vy,')=')
   for v1,v2 in zip(listax,listay):
-    print (v1,v2)
+    # print (v1,v2)
     print('el punto Escalado de:', '(',v1,',',v2,') es:',retornar_escalarP(v1,v2,vx,vy, vix, viy))
     
-  plt.fill(list_x, list_y, color='purple', alpha=0.1)
-  plt.fill(listax, listay, color='blue', alpha=0.1)
+  plt.fill(list_x, list_y, color='yellow', alpha=0.6)
+  plt.fill(listax, listay, color='blue', alpha=0.6)
   plt.show()
 
 escalar([1,3,5], [1,5,1], 3, 2)

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 N = 50 #Número de filas y columnas de la matriz (cuadrada)
 matriz_circunferencia = np.zeros((N,N))#creamos la matriz con ceros en todas las celdas
-circunferencia = [] #Lista en donde se insertarán las coordenadas de los pixeles a pintar con la siguiente forma [x,y] para la circunferencia
+circunferencia = [] #Lista en donde se insertarán las coordenadas del pixel a pintar con la siguiente forma [x,y] para la circunferencia
 matriz_new = []
 
 def Bresenham_circle(xc, yc,r):

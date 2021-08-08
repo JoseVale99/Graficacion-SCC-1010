@@ -24,8 +24,6 @@ def Show_Move(x1,y1, tx, ty):
 
 if __name__ == "__main__":
     # BLOQUE PRINCIPAL
-    
-
     Show_Move([-11, -11, 0, 11, 11, 0],[7, -6, -13, -7, 7, 13], 20, 10)
 
 
