@@ -1,10 +1,19 @@
 
 # Graficación 
 
-echo "# Graficacion-SCC-1010" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/JoseVale99/Graficacion-SCC-1010.git
-git push -u origin main
+Esta asignatura aporta la capacidad para diseñar modelos gráficos que requieran el trazado
+y manipulación de objetos bidimensionales y tridimensionales, que coadyuven su
+implementación en diversas áreas, tales como: simulación, arte, diseño, capacitación,
+medicina, noticias, entretenimiento, entre otras.
+
+## [UNIDAD I](UNIDAD_I)
+- Algoritmo de Bresenham 
+- Algoritmo de Bresenham circunferencia
+- Algoritmo DDA
+
+### Ejemplos
+![Linea con el algoritmo de Bresenham](linea.png) 
+![Circunferencia con el algoritmo de Bresenham](circunferencia.png)
+
+
+ 
