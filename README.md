@@ -12,8 +12,8 @@ medicina, noticias, entretenimiento, entre otras.
 - Algoritmo DDA
 
 ### Ejemplos
-![Linea con el algoritmo de Bresenham](linea.png) 
-![Circunferencia con el algoritmo de Bresenham](circunferencia.png)
+![Linea con el algoritmo de Bresenham](linea.png){:height="30%" width="30%"} 
+![Circunferencia con el algoritmo de Bresenham](circunferencia.png){:height="30%" width="30%"}
 
 
  
