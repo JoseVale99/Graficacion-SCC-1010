@@ -6,7 +6,7 @@ y manipulación de objetos bidimensionales y tridimensionales, que coadyuven su
 implementación en diversas áreas, tales como: simulación, arte, diseño, capacitación,
 medicina, noticias, entretenimiento, entre otras.
 
-## [UNIDAD I](UNIDAD_I)
+
 ## [UNIDAD I](UNIDAD_I)
 - Algoritmo de Bresenham circunferencia.
 - Algoritmo DDA.
